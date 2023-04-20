@@ -1,10 +1,10 @@
-package com.czertainly.api.model.core.enums;
+package com.czertainly.api.model.core.collection;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 
 @Data
-public class EnumItemDto {
+public class CollectionItemDto {
 
     @Schema(
             requiredMode = Schema.RequiredMode.REQUIRED,
